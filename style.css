@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Aqui esta la barra de navehación */
+nav{
+  background-color: #918ecc;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo img{
+  width: 50px;
+}
+
+nav .menu{
+  display: flex;
+}
+
+.menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 50px;
+
+}
+
+.menu ul li{
+  margin-right: 15px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  border: 1px solid transparent;
+
+}
+.menu ul li a:hover{
+  border: 1px solid #af351f;
+  border-radius: 10px;
+  color: #af351f;
+}
